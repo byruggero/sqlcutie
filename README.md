@@ -6,7 +6,7 @@ sqli dork scanner
 
 ## usage
 
-git pull https://github.com/madfedora/sqlcutie.git
+git clone https://github.com/madfedora/sqlcutie.git
 
 cd sqlcutie
 
@@ -15,6 +15,8 @@ chmod +x sqlcutie-1.8a.pl
 ./sqlcutie-1.8a.pl -d php?id=
 
 ./sqlcutie-1.8a.pl -c
+
+./sqlcutie -p http://127.0.0.1:9050/ -d php?id=
 
 ## menu
 
