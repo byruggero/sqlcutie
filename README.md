@@ -1,5 +1,8 @@
 # sqlcutie
 sqli dork scanner
+* Wide detection range (MySQL, MsSQL, PostgreSQL, JDBC/Oracle, Access, MariaDB, DB2, Sybase)
+* Regconize dynamic dork queries (e.g. asp?id+site:us, (asp|aspx)?id=)
+* Works through Tor
 
 ## usage
 
