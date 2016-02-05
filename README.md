@@ -10,13 +10,15 @@ git clone https://github.com/madfedora/sqlcutie.git
 
 cd sqlcutie
 
-chmod +x sqlcutie-1.8a.pl
+chmod +x sqlcutie.pl
 
-./sqlcutie-1.8a.pl -d php?id=
+./sqlcutie.pl -d php?id=
 
-./sqlcutie-1.8a.pl -c
+./sqlcutie.pl -c
 
-./sqlcutie -p http://127.0.0.1:9050/ -d php?id=
+./sqlcutie.pl -p http://127.0.0.1:9050/ -d php?id=
+
+./sqlcutie.pl -u
 
 ## menu
 
